@@ -2,19 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Bagdxk.Profile.Service.Api.Services;
 using Microsoft.AspNetCore.Mvc;
 
-namespace profile_service_api.Controllers
+namespace Bagdxk.Profile.Service.Api
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IValuesService _service;
+
+        public ValuesController(IValuesService service)
+        {
+            this._service = service;
+        }
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _service.Get().ToList();
         }
 
         // GET api/values/5

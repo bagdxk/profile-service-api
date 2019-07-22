@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace profile_service_api
+namespace Bagdxk.Profile.Service.Api
 {
     public class Program
     {

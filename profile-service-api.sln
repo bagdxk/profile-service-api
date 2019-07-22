@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "profile-service-api", "profile-service-api\profile-service-api.csproj", "{6EFA022D-DC81-4333-9052-A5805E27E753}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "profile-service-api", "src\profile-service-api\profile-service-api.csproj", "{31517148-49AD-44D4-8A17-9D1BC83E7FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "profile-service-api.tests", "test\profile-service-api.tests\profile-service-api.tests.csproj", "{C819E314-4A42-443B-A647-615C2D1C94E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6EFA022D-DC81-4333-9052-A5805E27E753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EFA022D-DC81-4333-9052-A5805E27E753}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EFA022D-DC81-4333-9052-A5805E27E753}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EFA022D-DC81-4333-9052-A5805E27E753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31517148-49AD-44D4-8A17-9D1BC83E7FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31517148-49AD-44D4-8A17-9D1BC83E7FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31517148-49AD-44D4-8A17-9D1BC83E7FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31517148-49AD-44D4-8A17-9D1BC83E7FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C819E314-4A42-443B-A647-615C2D1C94E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C819E314-4A42-443B-A647-615C2D1C94E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C819E314-4A42-443B-A647-615C2D1C94E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C819E314-4A42-443B-A647-615C2D1C94E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
